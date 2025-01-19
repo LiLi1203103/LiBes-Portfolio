@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* Cấu hình chung cho animation */
+.animated {
+  opacity: 0;
+  transform: translate3d(0, 0, 0);
+  transition: all var(--animation-duration, 1s) ease var(--animation-delay, 0s);
+}
+
+/* Fade-up */
+.fade-up {
+  transform: translateY(50px);
+}
+
+.fade-up.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade-down */
+.fade-down {
+  transform: translateY(-50px);
+}
+
+.fade-down.animated-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade-left */
+.fade-left {
+  transform: translateX(-100px);
+}
+
+.fade-left.animated-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade-right */
+.fade-right {
+  transform: translateX(100px);
+}
+
+.fade-right.animated-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Rotate In */
+.rotate-in {
+  transform: rotate(-90deg);
+  opacity: 0;
+}
+
+.rotate-in.animated-active {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+/* Rotate Out */
+.rotate-out {
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.rotate-out.animated-active {
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+/* Scale In */
+.scale-in {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+.scale-in.animated-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Scale Out */
+.scale-out {
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.scale-out.animated-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Slide In Left */
+.slide-in-left {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-in-left.animated-active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Slide In Right */
+.slide-in-right {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-in-right.animated-active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Flip */
+.flip {
+  transform: rotateY(90deg);
+  opacity: 0;
+}
+
+.flip.animated-active {
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .animated {
+    transition: all var(--animation-duration, 0.7s) ease var(--animation-delay, 0s);
+  }
+
+  /* Giảm dịch chuyển cho fade-up */
+  .fade-up {
+    transform: translateY(15px);
+  }
+
+  /* Giảm dịch chuyển cho fade-left */
+  .fade-left {
+    transform: translateX(-15px);
+  }
+
+  /* Ẩn hiệu ứng flip */
+  .flip {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+

@@ -1,0 +1,1023 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.default.css">
+	<link rel="stylesheet" href="css/animation.css">
+<title>LiBé Portfolio</title>
+    <link rel="icon" href="img/logo-darkblue.png" type="image/x-icon" class="img-fluid">
+</head>
+
+<body>
+	
+	<!--Phần menu nè-->
+	<div class="menu-overlay"></div>
+	<nav class="navbar bg-success fixed-top top-bar">
+	<div class="container-fluid">
+	<div class="menu-toggle" onclick="toggleMenu()">☰</div> <!-- Nút bấm menu -->
+	</div>
+	</nav>
+	<div class="vertical-menu">
+  <div class="logo">
+    <a href="#"><img src="img/logo-white.webp" alt="" class="img-fluid" style="padding: 20px"></a>
+  </div>
+  <div class="menu">
+     <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center open-sans">
+      <a class="p-1 text-center" href="#home">Trang chủ</a>
+      <a class="p-1 text-center" href="#about">Giới thiệu</a>
+      <a class="p-1 text-center" href="#services">Dịch vụ</a>
+      <a class="p-1 text-center" href="#portfolio">Dự án</a>
+	  <a class="p-1 text-center" href="#reference">Tham chiếu</a>
+      <a class="p-1 text-center" href="#contact">Liên hệ</a>
+    </div>
+  </div>
+</div>
+	<div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+		<main>
+      <section id="home" class="bg-dark">
+	 <!-- Header -->
+  <div class="bg-light text-dark text-center">
+	  <div class="container">
+	  <div class="row align-items-center mh-100">
+		  <div class="col-12 col-md-12 col-lg-6 animated fade-left" style="--animation-duration: 1s; --animation-delay: 0s;">
+			  <div class="image-container bo-goc-50">
+              <img src="img/avt-04.png" alt="" class="img-fluid mt-3">
+              </div>
+		  </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-6 ps-5 my-3">
+			  
+		  <h5 class="text-start open-sans animated fade-right" style="--animation-duration: 1s; --animation-delay: 0s;">👋 Xin chào! Tôi là</h5>
+		  <h1 class="display-3 text-start borel mt-4 mb-2 animated fade-right" style="--animation-duration: 1s; --animation-delay: 1s;">Trọng Nhân</h1>
+		  <h3 class="display-5 text-start borel mt-3 mb-2 animated fade-right" style="--animation-duration: 1s; --animation-delay: 1s;">(Li Bé)</h3> 
+          <div class="typewriter-container">
+          <div class="typewriter open-sans animated fade-right" style="--animation-duration: 1s; --animation-delay: 2s;">
+          <h3>Tôi là <em><span id="dynamic-text"></span></em></h3>
+          </div>
+		  <a href="https://drive.google.com/file/d/1PgD6WkDQl9Ny1HuKOH8c2fCf8AyHGTiM/view?usp=sharing" target="_blank" class="btn btn-primary mt-3 text-white open-sans btn-lg animated fade-right" style="--animation-duration: 1s; --animation-delay: 3s;"><b>Tải CV</b></a>
+          </div>
+          </div>
+		  
+	  </div>
+		  </div>
+  </div>
+		  
+
+</section>
+      <!-- About Section -->
+  <section id="about" class="pt-5 pb-4 bg-secondary">
+	  <div class="container mt-5">
+	  <div class="row">
+		  <div class="col-12 col-md-12 col-lg-5 pe-4 mb-3">
+			 <div class="container text-left text-dark open-sans">
+      <h1 class="text-dark text-center borel mb-3 animated fade-left" style="--animation-duration: 1s; --animation-delay: 0s;"><span class="text-nho">✦ </span><em>Giới thiệu</em><span class="text-nho"> ✦</span></h1>
+      <p class="animated fade-left" style="--animation-duration: 1s; --animation-delay: 1s;">Tôi là <span><b>Lê Trọng Nhân</b></span> - một cử nhân kế toán nhưng mang trong mình tình yêu mãnh liệt với cái đẹp, tôi luôn không ngừng học tập và trao dồi kiến thức về lĩnh vực thiết kế đồ họa. Được làm việc trong một môi trường sáng tạo và không ngừng cọ sát chuyên môn chính là một món quà quý báu với tôi.</p>
+				 
+	  <hr class="bg-success border-0 mt-5 mb-5 animated fade-left" style="height: 2px; --animation-duration: 1s; --animation-delay: 2s;">
+	
+	  <section id="experience" class="open-sans">
+  <h1 class="text-dark text-center borel mb-3 animated fade-left" style="--animation-duration: 1s; --animation-delay: 2s;"><span class="text-nho">✦ </span><em>Kinh nghiệm</em><span class="text-nho"> ✦</span></h1>
+  <div class="experience-container">
+	  
+	  <div class="experience-card bg-dark mb-2 animated fade-left" style="--animation-duration: 1s; --animation-delay: 3s;">
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center">
+      <div class="icon bg-success">
+        <i class="fa fa-briefcase"></i>
+      </div>
+			</div>
+			<div class="col-9">
+		<div class="row">
+			<div class="col-12">
+		<div class="thumbnail">
+        <p>2016 – 2017</p>
+        <h4><b>Trường Đại học Mở</b></h4>
+		<h6><em>Co-founder Câu lạc bộ
+Truyền Thông Trẻ</em></h6>
+      </div>
+      <div class="details">
+		<hr class="bg-success border-0 mb-1" style="height: 2px;">
+        <p class="description">
+			Là thành viên sáng lập nên CLB Truyền Thông Trẻ, trực thuộc Đoàn trường Đại học
+Mở TP.HCM. Phụ trách các công việc truyền thông như quay clip, chụp ảnh, thiết kế,..
+cho các sự kiện của nhà trường và câu lạc bộ. Đồng thời đào tạo các nội dung liên
+quan đến truyền thông cho cộng tác viên.
+        </p>
+      </div>
+		  </div>
+		</div>
+			</div>
+		</div>
+    </div>
+	  
+	  <div class="experience-card bg-dark mb-2 animated fade-left" style="--animation-duration: 1s; --animation-delay: 4s;">
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center">
+      <div class="icon bg-success">
+        <i class="fa fa-briefcase"></i>
+      </div>
+			</div>
+			<div class="col-9">
+		<div class="row">
+			<div class="col-12">
+		<div class="thumbnail">
+        <p>2018 - 2019</p>
+        <h4><b>Nhiếp ảnh gia tự do</b></h4>
+		<h6><em></em></h6>
+      </div>
+      <div class="details">
+		  <hr class="bg-success border-0 mb-1" style="height: 2px;">
+        <p class="description">
+			Chụp ảnh dịch vụ cho các sự kiện, kỷ yếu, ảnh cưới, cosplay, v.v...
+        </p>
+      </div>
+		  </div>
+		</div>
+			</div>
+		</div>
+    </div>
+	  
+    <div class="experience-card bg-dark mb-2 animated fade-left" style="--animation-duration: 1s; --animation-delay: 5s;">
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center">
+      <div class="icon bg-success">
+        <i class="fa fa-briefcase"></i>
+      </div>
+			</div>
+			<div class="col-9">
+		<div class="row">
+			<div class="col-12">
+		<div class="thumbnail">
+        <p>2019 - 2024</p>
+        <h4><b>Công ty cổ phần MISA</b></h4>
+		<h6><em>Nhân viên tư vấn cộng đồng</em></h6>
+      </div>
+      <div class="details">
+		  <hr class="bg-success border-0 mb-1" style="height: 2px;">
+        <p class="description">
+			Phụ trách lên kịch bản, ghi hình và sản xuất video hướng dẫn sử dụng phần mềm.
+Xây dựng và quản lý kênh YouTube hướng dẫn sử dụng phần mềm cho công ty với 4
+kênh gồm:
+          <ul>
+			  <li><b>Phần mềm kế toán MISA SME:</b> tăng từ <b>10.000</b> người đăng ký (2020) đến <b>43.500</b>
+người đăng ký (2024)</li>
+<li><b>MISA AMIS Kế toán:</b> tăng đến <b>6.000</b> người đăng ký (2024)</li>
+<li><b>MISA Mimosa Desktop:</b> tăng đến <b>6.990</b> người đăng ký (2024)</li>
+<li><b>MISA Bamboo Desktop:</b> tăng đến <b>2.280</b> người đăng ký (2024)</li>
+		  </ul>
+		  Phụ trách viết content, thiết kế ấn phẩm truyền thông cho trang cộng đồng và
+fanpage của MISA.
+        </p>
+      </div>
+		  </div>
+		</div>
+			</div>
+		</div>
+    </div>
+		  
+		  
+    <div class="experience-card bg-dark mb-2 animated fade-left" style="--animation-duration: 1s; --animation-delay: 6s;">
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center">
+      <div class="icon bg-success">
+        <i class="fa fa-briefcase"></i>
+      </div>
+			</div>
+			<div class="col-9">
+		<div class="row">
+			<div class="col-12">
+		<div class="thumbnail">
+        <p>2024</p>
+        <h4><b>Barista School</b></h4>
+		<h6><em>Nhân viên Digital Marketing</em></h6>
+      </div>
+      <div class="details">
+		  <hr class="bg-success border-0 mb-1" style="height: 2px;">
+        <p class="description">
+			Lên ý tưởng và thiết kế các ấn phẩm cho chiến dịch truyền thông hàng tháng. Chụp, chỉnh sửa hình ảnh sản phẩm, nhân viên, sự kiện,... Quay và thu âm cho các content video. 
+        </p>
+      </div>
+		  </div>
+		</div>
+			</div>
+		</div>
+    </div>
+		  
+	<div class="experience-card bg-dark mb-2 animated fade-left" style="--animation-duration: 1s; --animation-delay: 7s;">
+		<div class="row">
+			<div class="col-3 d-flex justify-content-center">
+      <div class="icon bg-success">
+        <i class="fa fa-briefcase"></i>
+      </div>
+			</div>
+			<div class="col-9">
+		<div class="row">
+			<div class="col-12">
+		<div class="thumbnail">
+        <p>2023 - Đến nay</p>
+        <h4><b>Li Bé Photography</b></h4>
+		<h6><em>Founder</em></h6>
+      </div>
+      <div class="details">
+		  <hr class="bg-success border-0 mb-1" style="height: 2px;">
+        <p class="description">
+			Setup ánh sáng, lên concept chụp ảnh theo yêu cầu.
+        </p>
+      </div>
+		  </div>
+		</div>
+			</div>
+		</div>
+    </div>
+    
+  </div>
+</section>
+				 
+    </div> 
+		  </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-7 ps-4">
+			  
+			  <div class="row">
+				  <div class="col-12 col-md-12 col-lg-8 mb-3 animated fade-right" style="--animation-duration: 1s; --animation-delay: 0s;">
+				  <div class="image-container mt-0 mb-3 rounded-4">
+              <img src="img/avt-03.png" alt="" class="img-fluid">
+              </div>
+				  </div>
+			  
+				 <div class="col-12 col-md-12 col-lg-4 text-white open-sans">    
+                 
+                 <a href="https://www.facebook.com/libephotography" target="_blank" class="contact-link">      
+				 <div class="contact-card mb-4 animated fade-right" style="--animation-duration: 1s; --animation-delay: 1s;">
+                 <div class="contact-icon">
+                 <i class="fab fa-facebook fa-2x me-3"></i>
+                 </div>
+                 <span>Facebook</span>
+                 </div>
+                 </a>
+                     
+				 <a href="https://www.behance.net/lnhn5" target="_blank" class="contact-link">	  
+                 <div class="contact-card mb-4 animated fade-right" style="--animation-duration: 1s; --animation-delay: 2s;">
+                 <div class="contact-icon">
+                 <i class="fab fa-behance fa-2x me-3"></i>
+                 </div>
+                 <span>Behance</span>
+                 </div>
+                 </a>
+					
+                 <a href="https://www.instagram.com/lilucluong" target="_blank" class="contact-link">	      
+				 <div class="contact-card mb-4 animated fade-right" style="--animation-duration: 1s; --animation-delay: 3s;">
+                 <div class="contact-icon">
+                 <i class="fab fa-instagram fa-2x me-3"></i>
+                 </div>
+                 <span>Instagram</span>
+                 </div>
+                 </a>
+					 
+                 <a href="https://500px.com/p/libephoto" target="_blank" class="contact-link">     
+				 <div class="contact-card mb-4 animated fade-right" style="--animation-duration: 1s; --animation-delay: 4s;">
+                 <div class="contact-icon">
+                 <i class="fab fa-500px fa-2x me-3"></i>
+                 </div>
+                 <span>500px</span>
+                 </div>
+                 </a>
+					 
+                 <a href="mailto:lenhan120397@gmail.com" target="_blank" class="contact-link">	      
+				 <div class="contact-card mb-4 animated fade-right" style="--animation-duration: 1s; --animation-delay: 5s;">
+                 <div class="contact-icon">
+                 <i class="fas fa-envelope fa-2x me-3"></i>
+                 </div>
+                 <span>Mail</span>
+                 </div>
+                 </a>
+  
+ 
+  
+              </div>
+				  </div>
+			  
+	 <hr class="bg-success border-0 mt-5 mb-5 animated fade-right" style="height: 2px; --animation-duration: 1s; --animation-delay: 6s;">
+			
+			  <div id="skills-section" class="open-sans animated fade-right" style="--animation-duration: 1s; --animation-delay: 6s;">
+    <h1 class="text-dark text-center borel mb-3"><span class="text-nho">✦ </span><em>Kỹ năng</em><span class="text-nho"> ✦</span></h1>
+                  
+                  <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-02.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">
+                      
+	    <div class="skill">
+        <span class="skill-name">Photoshop</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="95">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>
+                    </div>
+                </div>
+	
+                  
+                  <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-03.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">
+                          
+	 <div class="skill">
+        <span class="skill-name">Lightroom</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="100">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>	  
+                          </div>
+                </div>
+                  
+                  
+                <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-04.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">  
+				  
+    <div class="skill">
+        <span class="skill-name">Ilustration</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="90">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>
+                          </div>
+                </div>
+                          
+                
+                  <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-05.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">
+                  
+    <div class="skill">
+        <span class="skill-name">Premiere</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="85">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>
+                          
+                          </div>
+                </div>
+                  
+                <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-06.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">  
+                  
+                          
+    <div class="skill">
+        <span class="skill-name">After Effect</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="80">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>
+                          </div>
+                </div>
+                  
+                 <div class="row">
+                      <div class="col-2 col-lg-1 pt-1">
+                      <img src="img/icon-01.png" alt="" class="img-fluid">
+                      </div>
+                      
+                      <div class="col-10 col-lg-11">  
+				  
+	 <div class="skill">
+        <span class="skill-name">DaVinci Resolve</span>
+        <div class="skill-bar bg-primary">
+    <div class="skill-bar-fill bg-info" data-percent="86">
+      <span class="skill-percent">0%</span>
+    </div>
+  </div>
+    </div>
+                          
+                           </div>
+                </div>
+	
+</div>
+			  
+		  </div>
+		  </div>
+		  </div>
+    
+  </section>
+ 
+      
+      
+      <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h1 class="text-dark text-center borel mb-3 mt-5 animated fade-down" style="--animation-duration: 1s; --animation-delay: 0s;"><span class="text-nho">✦ </span><em>Dịch vụ</em><span class="text-nho"> ✦</span></h1>
+      <div class="row mt-4">
+       
+		<div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 1s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fas fa-pen-nib fa-lg"></i>
+  </div>
+  <h3><b>Thiết kế đồ họa</b></h3>
+  <p><ul>
+	  <li>Tạo ra các thiết kế sáng tạo như logo, banner, brochure, poster.</li>
+	  <li>Đảm bảo sự hài hòa về màu sắc và phong cách, phù hợp với nhu cầu của từng thương hiệu.</li>
+	  <li>Phối hợp với nhà in để đảm bảo chất lượng thiết kế thực tế.</li>
+  </ul>
+  </p>
+</div>
+        </div> 
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 1s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fas fa-box fa-lg"></i>
+  </div>
+  <h3><b>Thiết kế bao bì sản phẩm</b></h3>
+  <p><ul>
+	  <li>Tạo thiết kế bao bì sáng tạo, thu hút và phù hợp với sản phẩm.</li>
+	  <li>Đảm bảo bao bì phản ánh giá trị thương hiệu và tạo ấn tượng mạnh với khách hàng.</li>
+	   <li>Phối hợp với nhà in để đảm bảo chất lượng thiết kế thực tế.</li>
+  </ul>
+  </p>
+</div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 1s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fa fa-laptop"></i>
+  </div>
+  <h3><b>Xây dựng bộ nhận diện thương hiệu</b></h3>
+  <p><ul>
+	  <li>Tạo logo, màu sắc, phông chữ, và phong cách hình ảnh riêng cho thương hiệu.</li>
+	  <li>Thiết kế bộ nhận diện thương hiệu hoàn chỉnh: danh thiếp, bao bì, tài liệu quảng cáo,...</li>
+	   <li>Đảm bảo thương hiệu nổi bật, chuyên nghiệp và dễ nhận diện trên mọi nền tảng.</li>
+  </ul>
+  </p>
+</div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 2s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fas fa-camera-retro fa-lg"></i>
+  </div>
+  <h3><b>Chụp và chỉnh sửa ảnh</b></h3>
+  <p><ul>
+	  <li>Chụp ảnh chân dung, sản phẩm, sự kiện, quảng cáo,...</li>
+	  <li>Sử dụng thiết bị hiện đại như: A73, 24-70 GM2, 70-200 GM2,...</li>
+	   <li>Chỉnh sửa, hoàn thiện hình ảnh và in ấn theo yêu cầu.</li>
+  </ul>
+  </p>
+</div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 2s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fas fa-film fa-lg"></i>
+  </div>
+  <h3><b>Quay phim quảng cáo & sự kiện</b></h3>
+  <p><ul>
+	  <li>Quay video quảng cáo sản phẩm, doanh nghiệp và sự kiện.</li>
+	  <li>Sử dụng thiết bị hiện đại như: A73, 24-70 GM2, 70-200 GM2, Hollyland Lark Max Duo,...</li>
+	  <li>Tư vấn setup âm thanh, ánh sáng cho livestream trên các nền tảng.</li>
+  </ul>
+  </p>
+</div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 2s;">
+          <div class="card bg-light text-dark">
+  <div class="icon">
+    <i class="fas fa-file-video fa-lg"></i>
+  </div>
+  <h3><b>Chỉnh sửa video</b></h3>
+  <p><ul>
+	  <li>Cắt ghép, chỉnh sửa, hậu kì màu sắc video theo yêu cầu.</li>
+	  <li>Phục vụ đa dạng mục đích: video quảng cáo, vlog, sự kiện hoặc dự án cá nhân.</li>
+	  <li>Thực hiện VFX, animation đơn giản cho các video ngắn intro, outro, highlight...</li>
+  </ul>
+  </p>
+</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+      
+	<!-- Portfolio Section -->
+  <section id="portfolio" class="py-5 bg-secondary">
+    <div class="container">
+      <h1 class="text-dark text-center borel mb-3 mt-5 animated fade-up" style="--animation-duration: 1s; --animation-delay: 0s;"><span class="text-nho">✦ </span><em>Dự án</em><span class="text-nho"> ✦</span></h1>
+      
+		  <ul class="nav nav-pills mb-3 justify-content-center animated fade-down" style="--animation-duration: 1s; --animation-delay: 0s;" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Thiết kế</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Nhiếp ảnh</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Dựng phim</button>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+	 <div class="row mt-4">
+		 
+	 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design01-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox1()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Mộc Thiên Hương</b></h5>
+    <p class="card-text">Bộ nhận diện thương hiệu</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal1" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox1()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project1">
+     
+        <div class="item"> <img src="img/design01-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design01-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design01-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design01-04.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design01-05.jpg" alt=""/> </div>
+        <div class="item"> <img src="img/design01-06.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design01-07.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design02-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox2()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Bánh tráng Cuốn</b></h5>
+    <p class="card-text">Logo</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal2" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox2()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project2">
+     
+        <div class="item"> <img src="img/design02-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design02-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design02-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design02-04.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design02-05.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design03-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox3()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Kỷ niệm 35 năm Đại học Mở</b></h5>
+    <p class="card-text">Logo</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal3" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox3()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project3">
+     
+        <div class="item"> <img src="img/design03-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design03-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design03-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design03-04.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design04-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox4()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Sai Gon Zoo</b></h5>
+    <p class="card-text">Tạp chí</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal4" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox4()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project4">
+     
+        <div class="item"> <img src="img/design04-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design04-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design04-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design04-04.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design04-05.jpg" alt=""/> </div>
+        <div class="item"> <img src="img/design04-06.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design05-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox5()">
+	<div class="project-body text-dark">
+	<h5 class=""><b> Hộp mực J. Herbin</b></h5>
+    <p class="card-text">Bao bì</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal5" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox5()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project5">
+     
+        <div class="item"> <img src="img/design05-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design05-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design05-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design05-04.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design05-05.jpg" alt=""/> </div>
+        <div class="item"> <img src="img/design05-06.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design05-07.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/design06-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox6()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Hộp đựng bông lau bảng</b></h5>
+    <p class="card-text">Bao bì</p>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal6" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox6()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project6">
+     
+        <div class="item"> <img src="img/design06-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design06-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/design06-03.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		 <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="project-gallery bg-white">
+    <!-- Ảnh đại diện của project -->
+    <img src="img/Social-01.jpg" alt="Project Thumbnail" class="thumbnail img-fluid" onclick="openLightbox7()">
+	<div class="project-body text-dark">
+	<h5 class=""><b>Social Posts</b></h5>
+	</div>
+    <!-- Lightbox Modal (ẩn đi ban đầu) -->
+    <div id="lightboxModal7" class="lightbox-modal">
+        <span class="close" onclick="closeLightbox7()">&times;</span>
+        <div class="lightbox-content center">
+			<div class="container">
+            <div class="owl-carousel owl-theme" id="project7">
+     
+        <div class="item"> <img src="img/Social-01.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-02.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-03.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-04.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-05.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-06.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-07.jpg" alt=""/> </div>
+		<div class="item"> <img src="img/Social-08.jpg" alt=""/> </div>
+		    </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+		 
+		</div>
+	    </div>
+	
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+	<div class="slide mt-4">
+	  <div class="owl-carousel owl-theme" id="hinh">
+     
+        <div class="item"> <a href="img/photo-01.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-01.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-02.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-02.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-03.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-03.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-04.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-04.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-05.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-05.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-06.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-06.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-07.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-07.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-08.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-08.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-09.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-09.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-10.jpg" data-fancybox="photo" data-caption="Ảnh chân dung studio" > <img src="img/photo-10.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-11.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-11.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-12.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-12.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-13.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-13.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-14.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-14.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-15.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-15.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-16.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-16.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-17.jpg" data-fancybox="photo" data-caption="Ảnh chân dung ngoại cảnh" > <img src="img/photo-17.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-18.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-18.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-19.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-19.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-20.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-20.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-21.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-21.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-22.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-22.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-23.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-23.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-24.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-24.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-25.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-25.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-26.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-26.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-27.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-27.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-28.jpg" data-fancybox="photo" data-caption="Ảnh động vật" > <img src="img/photo-28.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-29.jpg" data-fancybox="photo" data-caption="Ảnh sản phẩm" > <img src="img/photo-29.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-30.jpg" data-fancybox="photo" data-caption="Ảnh sản phẩm" > <img src="img/photo-30.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-31.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-31.jpg" alt=""/> </a></div>
+          <div class="item"> <a href="img/photo-32.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-32.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-33.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-33.jpg" alt=""/> </a></div>
+		  <div class="item"> <a href="img/photo-34.jpg" data-fancybox="photo" data-caption="Ảnh đồ uống" > <img src="img/photo-34.jpg" alt=""/> </a></div>
+
+</div>
+		
+		</div>
+
+	
+	</div>
+	
+  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+	
+	  <div class="row mt-4">
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card">
+            <a data-fancybox data-width="1280" data-height="720" href="https://www.youtube.com/embed/rZD5wKYbIgM?si=yq_0JuHm8MsSCg2b"> <img src="img/video-01.jpg" alt="" class="img-fluid rounded-3"> </a>
+            <div class="card-body text-dark">
+              <h5 class=""><b>Hướng dẫn sử dụng phần mềm MISA SME</b></h5>
+              <p class="card-text">Quay màn hình</p>
+            </div>
+          </div>
+        </div>
+		  
+		   <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card">
+            <a data-fancybox data-width="1280" data-height="720" href="https://www.youtube.com/embed/8YeBaFr5Xw8?si=xbpHr3_8E49Uoh2K"> <img src="img/video-02.jpg" alt="" class="img-fluid rounded-3"> </a>
+            <div class="card-body text-dark">
+              <h5 class=""><b>Hướng dẫn sử dụng cơ bản MISA SME</b></h5>
+              <p class="card-text">Quay màn hình + Giảng viên</p>
+            </div>
+          </div>
+        </div>
+		  
+		   <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card">
+            <a data-fancybox data-width="1280" data-height="720" href="https://www.youtube.com/embed/qiOFzCVqZx4"> <img src="img/video-03.jpg" alt="" class="img-fluid rounded-3"> </a>
+            <div class="card-body text-dark">
+              <h5 class=""><b>MISA News</b></h5>
+              <p class="card-text">Bản tin phần mềm</p>
+            </div>
+          </div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-3">
+          <div class="card">
+            <a data-fancybox data-width="1280" data-height="720" href="https://www.youtube.com/embed/-NI22WDFSiI?si=Ak9Nmu2ucTZaR4mb"> <img src="img/video-04.jpg" alt="" class="img-fluid rounded-3"> </a>
+            <div class="card-body text-dark">
+              <h5 class=""><b>Khu vườn nhỏ của mẹ</b></h5>
+              <p class="card-text">Video phong cảnh</p>
+            </div>
+          </div>
+        </div>
+	  
+	  </div>
+	  
+	</div>
+</div>
+       
+        
+    </div>
+  </section>
+		<!--Reference Section-->
+  <section id="reference" class="py-5 bg-light">
+    <div class="container">
+      <h1 class="text-dark text-center borel mt-5 mb-3 animated fade-left" style="--animation-duration: 1s; --animation-delay: 0s;"><span class="text-nho">✦ </span><em>Người tham chiếu</em><span class="text-nho"> ✦</span></h1>
+      <div class="row mt-4">
+       
+		<div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-left" style="--animation-duration: 1s; --animation-delay: 1s;">
+			
+          <div class="reference-card">
+          <img src="img/ref-01.jpg" alt="Person 1" class="reference-img">
+          <h4>Phạm Quốc Huỳnh</h4>
+          <span><em>Phó giám đốc</em></span>
+		  <p>Công ty Cổ phần MISA</p>
+        </div>
+		
+        </div> 
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-left" style="--animation-duration: 1s; --animation-delay: 2s;">
+          <div class="reference-card">
+          <img src="img/ref-02.jpg" alt="Person 1" class="reference-img">
+          <h4>Lê Bão Sơn</h4>
+          <span><em>Trưởng nhóm</em></span>
+		  <p>Công ty Cổ phần MISA</p>
+        </div>
+        </div>
+		  
+		  <div class="col-12 col-md-12 col-lg-4 mb-5 animated fade-left" style="--animation-duration: 1s; --animation-delay: 3s;">
+          <div class="reference-card">
+          <img src="img/ref-03.jpg" alt="Person 1" class="reference-img">
+          <h4>Đinh Hiền Sĩ</h4>
+          <span><em>Trưởng phòng Marketing</em></span>
+		  <p>Barista School</p>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+		
+      <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-secondary text-white open-sans">
+    <div class="container">
+      <h1 class="text-dark text-center borel mb-3 mt-5 animated fade-down" style="--animation-duration: 1s; --animation-delay: 0s;"><span class="text-nho">✦ </span><em>Liên hệ</em><span class="text-nho"> ✦</span></h1>
+      <div class="row mt-4">
+      <!-- Contact Info -->
+      <div class="col-12 col-md-12 col-lg-6 contact-info px-4 text-dark mb-3 animated fade-left" style="--animation-duration: 1s; --animation-delay: 2s;">
+        <h2><b>Thông tin</b></h2>
+        <ul class="contact-list">
+          <li>
+            <div class="icon">
+              <i class="fas fa-envelope fa-lg"></i>
+            </div>
+            <div class="details">
+              <h4>Mail</h4>
+  
+              <a href="lenhan120397@gmail.com">lenhan120397@gmail.com</a>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fas fa-map-marker-alt fa-lg"></i>
+            </div>
+            <div class="details">
+              <h4>Địa chỉ</h4>
+               <address>
+               376 Nguyễn Kiệm, P.3, Q. Phú Nhuận
+               </address>
+            </div>
+          </li>
+          <li>
+            <div class="icon">
+              <i class="fas fa-phone fa-lg"></i>
+            </div>
+            <div class="details">
+              <h4>Số điện thoại</h4>
+                 <a href="0767837939">0767 837 9390</a>
+            </div>
+          </li>
+        </ul>
+        <!-- Google Map -->
+        <div class="map mt-4 pe-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.148978988224!2d106.67759241125339!3d10.799899589305904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d76d1d7a33%3A0x997c892c82f754f9!2zMzc2IMSQLiBOZ3V54buFbiBLaeG7h20sIFBoxrDhu51uZyAzLCBQaMO6IE5odeG6rW4sIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1735749973006!5m2!1svi!2s"
+            width="100%"
+            height="300"
+            style=""
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-12 col-md-12 col-lg-6 contact-form bg-info px-4 py-5 mb-3 rounded-3 animated fade-right" style="--animation-duration: 1s; --animation-delay: 2s;">
+        <h2 class="text-dark"><b>Tôi có thể giúp gì cho bạn?</b></h2>
+        <p>Hãy kể cho tôi bất cứ thứ gì trong đầu bạn và tôi sẽ biến nó thành một thiết kế.</p>
+        <form action="#" method="POST">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="name">Họ và tên</label>
+              <input type="text" id="name" name="name" placeholder="Họ và tên *" required>
+            </div>
+            <div class="col-md-6">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Email *" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label for="subject">Chủ đề</label>
+              <input type="text" id="subject" name="subject" placeholder="Bạn tìm tôi vì vấn đề gì?*" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label for="message">Tin nhắn</label>
+              <textarea id="message" name="message" rows="5" placeholder="Hãy cho tôi biết chi tiết hơn về vấn đề của bạn nhé!*" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+		
+  <!-- Footer -->
+  <footer class="footer text-dark text-center py-4 bg-light open-sans">
+  <div class="footer-content">
+    <div class="profile-image mb-4">
+      <img src="img/avt-01.png" alt="Profile Image" class="img-fluid bg-info">
+		<div class="circle bg-secondary"></div>
+		</div>
+		<h3 class="footer-name borel">Trọng Nhân</h3>
+	 <h5 class="footer-name borel">(Li Bé)</h5>
+		
+    <div class="social-links">
+		<a href="https://www.facebook.com/libephotography" target="_blank" class="social-icon mx-1 animated fade-left" style="--animation-duration: 1s; --animation-delay: 0s;">
+        <i class="fab fa-facebook fa-lg"></i>
+      </a>
+		
+      <a href="https://www.behance.net/lnhn5" target="_blank" class="social-icon mx-1 animated fade-left" style="--animation-duration: 1s; --animation-delay: 0s;">
+        <i class="fab fa-behance fa-lg"></i>
+      </a>
+		
+      <a href="https://www.instagram.com/lilucluong" target="_blank" class="social-icon mx-1 animated fade-right" style="--animation-duration: 1s; --animation-delay: 0s;">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      
+      <a href="https://500px.com/p/libephoto" target="_blank" class="social-icon mx-1 animated fade-right" style="--animation-duration: 1s; --animation-delay: 0s;">
+        <i class="fab fa-500px fa-lg"></i>
+      </a>
+    </div>
+    <p class="footer-copyright text-isuccess">
+      © 2024 Li Bé Portfolio | Designed by Li Bé
+    </p>
+  </div>
+  </footer>
+		
+		</main>
+    </div>
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/text-typewritter.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/skill.js"></script>
+	<script src="js/experience.js"></script>
+    <script src="js/control.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
